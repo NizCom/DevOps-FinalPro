@@ -30,7 +30,7 @@
         <label id="labelEmail" for="email">Email:</label>
         <input type="email" name="email" id="email"><br>
 
-        <label id="labelMessage" for="message">Messrrrrrrage:</label>
+        <label id="labelMessage" for="message">Message:</label>
         <textarea name="message" id="message" rows="4" cols="30"></textarea><br>
 
         <input type="checkbox" name="autoEnable" id="autoEnable"> Checkbox <br>

@@ -16,13 +16,13 @@
 
 		<script>
             function toggleLabel() {
-                var ageInput = document.getElementById("age")
-                var ageLabel = document.getElementById("labelAgeMessage")
+                var ageInput = document.getElementById("age");
+                var ageLabel = document.getElementById("labelAgeMessage");
                 
                 if (ageInput.value < 25) {
-                    ageLabel.style.display = "block"
+                    ageLabel.style.display = "block";
                 } else {
-                    ageLabel.style.displajy = "none"
+                    ageLabel.style.display = "none";
                 }
             }
         </script>

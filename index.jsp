@@ -12,7 +12,7 @@
 		
 		<label id="labelAge" for="age">Age:</label>
         <input type="number" min="1" max="150" name="age" id="age" onblur="toggleLabel()"><br>
-		<label id="labelAgeMessage" style="display: none;">You are below 25 years old.</label>
+		<label id="labelAgeMessage" style="display: none;">You are below 28 years old.</label>
 
 		<script>
             function toggleLabel() {

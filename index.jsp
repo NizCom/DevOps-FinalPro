@@ -8,7 +8,7 @@
 	<h1 id="webAppTitle">The best web application ever!</h1>
     <form method="post" action="process.jsp">
         <label id="labelName" for="name">Name:</label>
-        <input type="text" name="name" id="name"><br>
+        <input type="text" name="Name" id="name"><br>
 		
 		<label id="labelAge" for="age">Age:</label>
         <input type="number" min="1" max="150" name="age" id="age" onblur="toggleLabel()"><br>

@@ -27,7 +27,7 @@
             }
         </script>
         
-        <label id="labelEmail" for="email">Email:</label>
+        <label id="labelEmail" for="email">email:</label>
         <input type="email" name="email" id="email"><br>
 
         <label id="labelMessage" for="message">Message:</label>

@@ -6,7 +6,7 @@
 </head>
 <body>
 	<h1 id="webAppTitle">The best web application ever!</h1>
-    <form method="post" action="process.jsp">
+    <form>
         <label id="labelName" for="name">Name:</label>
         <input type="text" name="name" id="name"><br>
 		

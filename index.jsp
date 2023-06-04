@@ -1,4 +1,6 @@
-mhv,jhv,mb.m,b
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+<!DOCTYPE html>
+<html>
 <head>
     <title>Our Website</title>
 </head>
@@ -14,13 +16,13 @@ mhv,jhv,mb.m,b
 
 		<script>
             function toggleLabel() {
-                var ageInput = document.getElementById("age");
-                var ageLabel = document.getElementById("labelAgeMessage");
+                var ageInput = document.getElementById("age")
+                var ageLabel = document.getElementById("labelAgeMessage")
                 
                 if (ageInput.value < 25) {
-                    ageLabel.style.display = "block";
+                    ageLabel.style.display = "block"
                 } else {
-                    ageLabel.style.display = "none";
+                    ageLabel.style.displajy = "none"
                 }
             }
         </script>

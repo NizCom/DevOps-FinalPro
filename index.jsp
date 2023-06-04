@@ -1,4 +1,4 @@
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
+//<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <!DOCTYPE html>
 <html>
 <head>
@@ -26,4 +26,29 @@
                 }
             }
         </script>
+        
+        <label id="labelEmail" for="email">email:</label>
+        <input type="email" name="email" id="email"><br>
 
+        <label id="labelMessage" for="message">Message:</label>
+        <textarea name="message" id="message" rows="4" cols="30"></textarea><br>
+
+        <input type="checkbox" name="autoEnable" id="autoEnable"> Checkbox <br>
+
+        <input type="submit" value="Submit">
+    </form>
+	<a id="spotifyLink" href="https://open.spotify.com/" target="_blank">Go to Spotify</a>
+	<br/>
+	<a id="whatsappLink" href="https://web.whatsapp.com/" target="_blank">Go to WhatsApp Web</a>
+	<h3 id="webAppFooter">End of website</h3>
+	
+	<script>
+		function toggleAutoEnable() {
+			var autoEnableCheckbox = document.getElementById("autoEnable");
+			autoEnableCheckbox.checked = true;
+		}
+		
+		window.addEventListener("load", toggleAutoEnable);
+	</script>
+</body>
+</html>

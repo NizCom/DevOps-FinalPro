@@ -5,7 +5,7 @@
     <title>Our Website</title>
 </head>
 <body>
-	<h1 id="webAppTitle">The best web application ever!</h1>
+	<h1 id="WebAppTitle">The best web application ever!</h1>
     <form>
         <label id="labelName" for="name">Name:</label>
         <input type="text" name="name" id="name"><br>

@@ -8,7 +8,7 @@
 	<h1 id="webAppTitle">The best web application ever!</h1>
     <form method="post" action="process.jsp">
         <label id="labelName" for="name">Name:</label>
-        <input type="text" name="name" id="name"><br>
+        <input type="text" name="Name" id="name"><br>
 		
 		<label id="labelAge" for="age">Age:</label>
         <input type="number" min="1" max="150" name="age" id="age" onblur="toggleLabel()"><br>
@@ -27,7 +27,7 @@
             }
         </script>
         
-        <label id="labelEmail" for="email">email:</label>
+        <label id="labelEmail" for="email">Email:</label>
         <input type="email" name="email" id="email"><br>
 
         <label id="labelMessage" for="message">Message:</label>
@@ -39,7 +39,8 @@
     </form>
 	<a id="spotifyLink" href="https://open.spotify.com/" target="_blank">Go to Spotify</a>
 	<br/>
-	<a id="whatsappLink" href="https://web.whatsapp.com/" target="_blank">Go to WhatsApp Web</a>
+	<a id="whatsappLink" href="http://localhost:8888/Final_Project-Shavit_Eyal_Eitan_Gil_Nizan/" target="_blank">Go to WhatsApp Web</a>
+    
 	<h3 id="webAppFooter">End of website</h3>
 	
 	<script>
